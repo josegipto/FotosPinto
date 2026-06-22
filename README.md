@@ -1,1 +1,83 @@
 # FotosPinto
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fotos Pinto</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#111;
+    color:white;
+    text-align:center;
+}
+
+.container{
+    max-width:700px;
+    margin:auto;
+    padding:30px;
+}
+
+.logo{
+    max-width:450px;
+    width:90%;
+    margin-bottom:30px;
+    background:white;
+    padding:15px;
+    border-radius:10px;
+}
+
+.btn{
+    display:block;
+    background:#ffffff;
+    color:#111;
+    text-decoration:none;
+    padding:18px;
+    margin:15px 0;
+    border-radius:12px;
+    font-size:20px;
+    font-weight:bold;
+    transition:.2s;
+}
+
+.btn:hover{
+    transform:scale(1.03);
+}
+
+.footer{
+    margin-top:40px;
+    color:#aaa;
+    font-size:14px;
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+<img src="logo.jpg" alt="Fotos Pinto" class="logo">
+
+<a class="btn" href="https://www.instagram.com/fotospinto?igsh=ZDNobjZ1cXk4YjU%3D&utm_source=qr" target="_blank">
+📸 ¡Sígueme en Instagram!
+</a>
+
+<a class="btn" href="https://drive.google.com/drive/folders/1gs27N-p1oTH-bFiF0PkjT-yKVr81SB3E" target="_blank">
+📷 Fotos Ariza 20/06/26
+</a>
+
+<a class="btn" href="https://drive.google.com/drive/folders/1B-a2dAr6stqeTaetyQHTtRSTXE3RbHaq" target="_blank">
+📷 Fotos Robledo 20/06/26
+</a>
+
+<div class="footer">
+Fotografía deportiva · Eventos · Retratos
+</div>
+
+</div>
+
+</body>
+</html>
